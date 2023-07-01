@@ -36,7 +36,7 @@ export const Home = () => {
 
     function handleRecipe() {
         addRecipe(
-            recipes.length + 1,
+            recipes?.length + 1,
             name,
             image,
             cuisineType,
