@@ -1,0 +1,23 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid;
+    width: fit-content;
+    width: 260px;
+    
+}
+
+
+.card-header > img {
+    width: 100%;
+    height: 200px;
+
+}
+.card-header > button {
+    position: relative;
+    bottom: 200px;
+    left: 140px;
+    cursor: pointer;
+}
+

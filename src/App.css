@@ -1,0 +1,40 @@
+.recipe-container {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.recipe-entries {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 12px;
+}
+
+.recipe-entries > button {
+  width: fit-content;
+  align-self: center;
+  cursor: pointer;
+}
+
+.modal-container {
+  background-color: aqua;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+}
+
+.detail-container {
+  padding: 1rem;
+}
+
+.filter-contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 20px;
+}
