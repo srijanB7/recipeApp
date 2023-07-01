@@ -30,9 +30,9 @@ export const Home = () => {
     const [image, setImage] = useState("");
     const [filter, setFilter] = useState("Name");
     const [searchText, setSearchText] = useState("");
-    //console.log(recipes);
-    let displayRecipes = [...recipes];
-    //console.log(filter);
+   
+    let displayRecipes = recipes;
+
 
     function handleRecipe() {
         addRecipe(
