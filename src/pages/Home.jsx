@@ -31,7 +31,7 @@ export const Home = () => {
     const [filter, setFilter] = useState("Name");
     const [searchText, setSearchText] = useState("");
    
-    let displayRecipes = recipes;
+    let displayRecipes = [recipes];
 
 
     function handleRecipe() {
@@ -68,7 +68,7 @@ export const Home = () => {
          return recipe[searchIn].toLowerCase().includes(searchText);
         
     });
-    //console.log(displayRecipes);
+    console.log(displayRecipes);
     //console.log("rerender");
 
     return (
