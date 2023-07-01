@@ -68,8 +68,8 @@ export const Home = () => {
          return recipe[searchIn].toLowerCase().includes(searchText);
         
     });
-    console.log(displayRecipes);
-    console.log("rerender");
+    //console.log(displayRecipes);
+    //console.log("rerender");
 
     return (
         <div>
