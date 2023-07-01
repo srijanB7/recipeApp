@@ -31,7 +31,7 @@ export const Home = () => {
     const [filter, setFilter] = useState("Name");
     const [searchText, setSearchText] = useState("");
     //console.log(recipes);
-    let displayRecipes = recipes;
+    let displayRecipes = [...recipes];
     //console.log(filter);
 
     function handleRecipe() {
