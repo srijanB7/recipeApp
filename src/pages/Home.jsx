@@ -59,7 +59,7 @@ export const Home = () => {
             return;
         }
     }
-    displayRecipes = recipes.filter((recipe) =>  {
+    displayRecipes = recipes?.filter((recipe) =>  {
          let searchIn;
          if (filter === "Name") searchIn = "name";
          if (filter === "Ingredients") searchIn = "ingredients";
@@ -109,7 +109,7 @@ export const Home = () => {
 
             <div className="recipe-container">
                 {
-                    displayRecipes.map((recipe) => (
+                    displayRecipes?.map((recipe) => (
                         <RecipeCard key={recipe.id} {...recipe} />
                     ))
                     
