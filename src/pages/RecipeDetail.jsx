@@ -6,7 +6,7 @@ export const RecipeDetail = () => {
     const { id } = useParams();
     const { recipes } = useContext(RecipeContext);
     const recipe = recipes.find((recipe) => recipe.id == id);
-    console.log(recipe);
+    //console.log(recipe);
     return (
         <div className="detail-container">
             <h1>{recipe.name}</h1>
