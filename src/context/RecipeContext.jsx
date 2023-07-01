@@ -69,9 +69,9 @@ export const RecipeProvider = ({ children }) => {
         localStorage.setItem("recipes", JSON.stringify(updatedRecipes));
     };
 
-    useEffect(() => {
-        setRecipes(JSON.parse(localStorage.getItem("recipes")));
-    }, []);
+    // useEffect(() => {
+    //     setRecipes(JSON.parse(localStorage.getItem("recipes")));
+    // }, []);
 
     return (
         <RecipeContext.Provider value={{ recipes, addRecipe, deleteRecipe }}>
